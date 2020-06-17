@@ -23,13 +23,13 @@ Description:
         </q-card>
       </q-expansion-item>
       <!-- Work in Progress -->
-      <q-expansion-item dense dense-toggle expand-separator label="Vuex">
+      <!-- <q-expansion-item dense dense-toggle expand-separator label="Vuex">
         <q-card>
           <div class="input-container">
             <VuexForm />
           </div>
         </q-card>
-      </q-expansion-item>
+      </q-expansion-item> -->
       <!----------------------->
     </q-list>
   </div>
@@ -38,12 +38,12 @@ Description:
 <script>
 import RouteDisplay from '../components/RouteDisplay'
 import ComponentList from './HomeSideDropDownItems/ComponentList'
-import VuexForm from './HomeSideDropDownItems/VuexForm'
+// import VuexForm from './HomeSideDropDownItems/VuexForm'
 
 export default {
   components: {
     RouteDisplay,
-    VuexForm,
+    // VuexForm,
     ComponentList
   }
 }

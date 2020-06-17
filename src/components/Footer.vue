@@ -24,7 +24,7 @@ Description:
       >
 
         <q-tab name="code" label="Code Snippet" id="label-text" />
-        <q-tab name="detail" label="Component Details" id="label-text" />
+        <!-- <q-tab name="detail" label="Component Details" id="label-text" /> -->
         <q-tab name="tree" label="Project Tree" id="label-text" />
         <q-tab name="html" label="HTML Elements" id="label-text" />
       </q-tabs>
@@ -34,9 +34,9 @@ Description:
           <CodeSnippet />
         </q-tab-panel>
       <!-- Work in Progress -->
-        <q-tab-panel name="detail">
+        <!-- <q-tab-panel name="detail">
           <div class="text-h6">Vuex</div>Component Info Here
-        </q-tab-panel>
+        </q-tab-panel> -->
       <!----------------------->
         <q-tab-panel name="tree">
           <Tree />
