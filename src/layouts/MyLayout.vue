@@ -19,16 +19,16 @@ Description:
         <i v-else class="fa fa-backward" id="unavailable" aria-hidden="true"></i>
         <i v-if='this.$router.app.$children[0].undoneAction.length' class="fa fa-forward" aria-hidden="true" @click="redo"></i>
         <i v-else class="fa fa-forward" id="unavailable" aria-hidden="true"></i>
-        <OpenProjectComponent />
+        <!-- <OpenProjectComponent />
         <SaveProjectComponent />
-        <ExportProjectComponent />
+        <ExportProjectComponent /> -->
         </div>
       </q-toolbar>
     </q-header>
 
     <q-drawer v-model="left" side="left" behavior="desktop" bordered>
       <q-list class="q-list-drawer">
-        <UploadImage />
+        <!-- <UploadImage /> -->
         <HomeSideDropDown />
         <CreateComponent />
       </q-list>
@@ -45,10 +45,10 @@ Description:
 import HomeSideDropDown from '../components/HomeSideDropDown'
 import Footer from '../components/Footer'
 import CreateComponent from '../components/CreateComponent'
-import ExportProjectComponent from '../components/ExportProject'
-import SaveProjectComponent from '../components/SaveProjectComponent'
-import OpenProjectComponent from '../components/OpenProjectComponent'
-import UploadImage from '../components/UploadImage'
+// import ExportProjectComponent from '../components/ExportProject'
+// import SaveProjectComponent from '../components/SaveProjectComponent'
+// import OpenProjectComponent from '../components/OpenProjectComponent'
+// import UploadImage from '../components/UploadImage'
 
 export default {
   data () {
@@ -61,10 +61,10 @@ export default {
     HomeSideDropDown,
     Footer,
     CreateComponent,
-    ExportProjectComponent,
-    SaveProjectComponent,
-    OpenProjectComponent,
-    UploadImage
+    // ExportProjectComponent,
+    // SaveProjectComponent,
+    // OpenProjectComponent,
+    // UploadImage
   },
   methods: {
     undo () {
